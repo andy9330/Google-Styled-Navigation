@@ -1,0 +1,50 @@
+/*
+*	Stylesheet for A Google styled navigation
+*	Author: admin@terryjune.me
+*/
+
+/* imports */
+@import: url('reset.css');
+
+ul {
+	background: #333;
+	padding-left: .2em;
+	padding-right: .2em;
+	width: 100%;
+}
+
+ul li {
+	display: inline;
+	line-height: 2em;
+	list-style-type: none;
+	padding-left: .3em;
+	padding-right: .3em;
+}
+
+ul li a {
+	color: #ccc;
+	font-family: Arial;
+	font-size: .8em;
+	text-decoration: none;
+}
+
+ul li:hover {
+	background-color: #555;
+}
+
+.selected {
+	border-top: 2px solid #FF0000;
+}
+
+.selected  a {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
